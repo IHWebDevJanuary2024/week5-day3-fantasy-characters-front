@@ -1,0 +1,42 @@
+.characters-container {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.character-card {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border: 5px solid rgb(121, 84, 84);
+    border-radius: 10px;
+    box-shadow: 3px 6px 16px 0px rgba(0,0,0,0.34);
+}
+
+.character-card img {
+    width: 85%;
+    border: 5px solid rgb(0, 0, 0)
+}
+
+.character-info {
+    background-color: bisque;
+    width: 85%;
+    padding: 20px;
+    border: 5px solid black;
+    position: relative;
+}
+
+.character-info h3{
+    position: absolute;
+    top: -15px;
+    padding: 2px;
+    border: 2px solid black;
+    background-color: bisque;
+    border-radius: 7px;
+}
